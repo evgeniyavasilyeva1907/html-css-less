@@ -75,3 +75,38 @@
         margin-bottom: 20px;
     }
 }
+
+@media screen and (max-width: 768px){
+    .wedo1, .wedo2{
+        padding: 5px;
+        text-align: center;
+    }
+    .wedo1 .container, .wedo2 .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .wedo1 .container img, .wedo2 .container img{
+        width: 100%;
+    }
+    .wedo1 .container .left{
+        order: 2;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .wedo1 .container .right{
+        order: 1;
+        max-width: 100%;
+    }
+    .wedo1 .container .btn, .wedo2 .container .btn{
+        margin-bottom: 20px;
+    }
+    .wedo2 .container .left{
+        max-width: 100%;
+    }
+    .wedo2 .container .right{
+        max-width: 100%;
+        margin-bottom: 30px;
+
+    }
+}
