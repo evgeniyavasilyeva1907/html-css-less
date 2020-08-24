@@ -311,3 +311,44 @@ body .portfolio .container-filter div:hover .fil {
   cursor: pointer;
   display: block;
 }
+body .our_team {
+  background: #f2f2f2;
+  margin-bottom: 10px;
+  padding: 30px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+body .our_team .warp {
+  display: flex;
+  justify-content: space-around;
+}
+body .our_team .warp .people {
+  text-align: center;
+  margin-bottom: 15px;
+}
+body .our_team .warp a {
+  color: #414141;
+}
+body .our_team .warp a:hover {
+  color: #868686;
+}
+body .our_team .warp p {
+  color: gray;
+}
+body .our_team .warp h3 {
+  color: gray;
+  padding-bottom: 5px;
+}
+body .our_team .warp h3 span {
+  color: #fc635e;
+}
+body .our_team h1 {
+  text-transform: uppercase;
+  color: gray;
+  padding-bottom: 5px;
+  text-decoration: underline;
+}
+body .our_team h1 span {
+  color: #fc635e;
+}
