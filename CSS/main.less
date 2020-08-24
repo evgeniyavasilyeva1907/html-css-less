@@ -219,4 +219,90 @@ body{
             max-width: 50%;
         }
     }
+    .portfolio{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 30px;
+        .btn{
+            margin: 40px 0px;
+        }
+        h1{
+            margin: 50px 0;
+            padding-bottom: 5px;
+            border-bottom: 3px solid #b1b1b1;
+            color: gray;
+        }
+        .controls{
+           text-align: center;
+            letter-spacing: 2px;
+            font-size: 25px;
+            border-top: 1px gray solid;
+            border-bottom: 1px gray solid;
+            padding: 15px;
+            margin-bottom: 30px;
+            button{
+                color:#fc635e;
+                background: transparent;
+                border:none;
+                text-transform: uppercase;
+                font-size: 22px;
+                &:hover{
+                    color: #e44640;
+                    cursor: pointer;
+                }
+            }
+        }
+        .container-filter{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            #ex1{
+                background-image: url(../img/1.png) ;
+            }
+            #ex2{
+                background-image: url(../img/2.png) ;
+            }
+            #ex3{
+                background-image: url(../img/3.png) ;
+            }
+            #ex4{
+                background-image: url(../img/4.png) ;
+            }
+            #ex5{
+                background-image: url(../img/5.png) ;
+            }
+            #ex6{
+                background-image: url(../img/6.png) ;
+            }
+            div{
+                background-size: cover;
+                background-position: center center;
+                width: 250px;
+                height: 180px;
+                margin: 10px;
+                .fil{
+                    p{
+                        margin: 0;
+                        padding: 10px;
+                    }
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    color: #fff;
+                    font-weight: bold;
+                    display: none;
+                    position: relative;
+                    margin: 0;
+                    background: url(../img/plus.png) rgba(255, 72, 72, 0.75);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                }
+                &:hover .fil{
+                    cursor:pointer;
+                    display: block;
+                }
+            }
+        }
+    }
 }
